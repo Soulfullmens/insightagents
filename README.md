@@ -71,7 +71,7 @@ InsightAgents is a multi-agent system that automates the extraction of meaningfu
 
 ## 🧩 Architecture Diagram
 
-![Architecture Diagram](architecture-diagram.jpg)
+![Architecture Diagram](architecture_diagram.png)
 
 ---
 
