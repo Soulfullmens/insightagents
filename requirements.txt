@@ -1,0 +1,7 @@
+google-cloud-aiplatform
+google-cloud-bigquery
+python-dotenv
+google-cloud-aiplatform>=1.38.0
+google-cloud-bigquery>=3.12.0
+python-dotenv>=1.0.0
+rich>=13.0.0
