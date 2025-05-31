@@ -1,15 +1,16 @@
-from vertexai.preview.generative_models import GenerativeModel
-import vertexai
+import requests
+import json
 
-# Step 1: Initialize Vertex AI
-vertexai.init(
-    project="my-first-project-robust-atrium-460918-b1",  # ✅ Correct
-    location="us-central1"                               # ✅ Correct
-)
+api_key = "AIzaSyB37zgDkQJq475ayeP5QN8JV2nDqBb3o7w"
+model_id = "gemini-1.5-flash"
+url = f"https://generativelanguage.googleapis.com/v1/models/{model_id}:generateContent?key={api_key}"
 
-# Step 2: Load Gemini Pro model
-model = GenerativeModel("gemini-pro")                    # ✅ Correct
+payload = {
+    "contents": [{
+        "role": "user",
+        "parts": [{"text": "Hello from Gemini!"}]
+    }]
+}
 
-# Step 3: Call the model
-response = model.generate_content("Hello, Gemini!")      # ✅ Correct
-print(response.text)
+response = requests.post(url, json=payload)
+print(json.dumps(response.json(), indent=2))

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "robust-atrium-460918-b1",
+  "private_key_id": "9c1ee1154bc3cd8bad8a4a307a8fd7755d4afc6e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCrQKj+XSP6bFe1\ngkCiuHYeXkMoWC8tjvopBmRf9TdgNc8QVg7HeHQBpF3/iwEJJsgzQXn3S6ii2pr/\nvQe8Me7ZDKQ6Wmotl/I4dKnQ7CLpQ1ztlhp8Giui/hnCETvmC5NbZyDzMpsNpJF0\nkSaDwTiLkW6pCJTUjRnXsEZ9iu30Z1OM0zKU76BkmRK8D9n7tEiUBIgLhLfQ2UHr\nEkV5t4/6pA5Z2qXKn3tYzExghrDe6aZvb40B3ZO8hUtotncLPpzzBSZIHAWqJgMW\n4uxaWTV6AJOZK2m1azecgtb8Wd+hQaIkyyFdIqtToh0Ty6iEdVSTZSuCmHdr/DE8\nK/p6g5mrAgMBAAECggEABhvh4LpY2LY5sL9gko1q+pgD5Edfs3aDZP2V4g3AzR1O\nRs0TF47Wmze4+gSEORvZjhPasnV6orM9TpHN2gBGqWvNMJ8IukSj1DC73WM3DEQm\nEfxF80G0ZyA9B1JkZRyU7ptGA8w9LLuUoWhgy9gTg3hgzrCALU7f6kpJpsZ9yOHs\nbqBDw++TRkr+wFPLcnXUIo4k94objvmIOl2Y9222jzr4K0cxgT9RpUwiX9sBnlq4\nu34aC7/jIkBLD+bhrxMxm7T/l7D5omRGCOgbWmr0I4A9GHQxJJx8fZc1w/Ry7E8i\nEMTJ4Lp74Pk/SH4cmqXS6Jro6C8SdrvY1S8yuVVUVQKBgQDXxmmu2LJZSswdK1yz\n/6I6RVOr2jxeL+Coy8cWkn8CvNTD42pS5W9kGREl0W1SsgEANLvneXezAjaE8Akh\n3AqD7b6VMLN44t4Zp34M9/sek013CECU2VjdRRjbYMv9wyr81KdQU5Yi7I1Tfuuf\n3rh+zWiK8LuxqcQbr5q27RKM/QKBgQDLLXgzLH9bqlCvxsVjGJDeSOSiaNQ6xsIL\nG6BNwxCxo6BOirrrT9OgjZf2iwF7FMySDqnE1JnnkyZs8xI6/+lcLNTCnu3oQ73D\ndE5gtGgQ+YeEz2l/af3msqBZQFCOQH01ihVBPVc/cRZBf2fhSgS3uPnQuP5pB+I+\npVR7P+hVxwKBgHmw4++BNOyY+47D4s99L6APc0XrmbpA5EIuUwTO8CS6HICxpEhG\nL1FTtdEPUMmfrGLSWtsMLU7ew6KrwWrAL4oCLkbzpXRa9omfZb6oqI6w4rJsDAgm\noDCChKdM6x8d0AOxZv8tdPITWQ0q+nY6ZPDWpcweQqzLIte+bNIX2Ct9AoGAPJWE\nYA4Gs/inMqLcvN3YZM/rjRohHp2hwtosBMQDuFSIOqNXdU9KVXejNprgiCj9jxfc\nO5sBgXH5ZUddykYA+cFMd/QYEMgST7PgoyloVpdxd4K5fIrIcQAWnEZ3PtOwAkT4\nbYmy+HHqJwGsohsGKRp5M2nWQs9dAT0fYdj+mIUCgYBWWIZ4XDBVNHHucxhYaOJf\nPwlDXIYE86EBGEqacmadFIaizpwQpBWQrCaplV1PsQ6moo1cUZOWvZ4A+cyEVbxq\nh4lIVeWIo7FsboOvVzPokYHlSBYLKQDdkMelDoGgp2M2aBbYNuzj+M/GMuWRBIDu\n+IoEPg4sen3kc3yaFimEpQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "insight-agent-sa@robust-atrium-460918-b1.iam.gserviceaccount.com",
+  "client_id": "111026758282833385902",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/insight-agent-sa%40robust-atrium-460918-b1.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

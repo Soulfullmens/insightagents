@@ -1,37 +1,28 @@
-"""
-main.py – Orchestrates the InsightAgents pipeline:
-1. Collects data
-2. Analyzes insights
-3. Generates & logs reports to BigQuery
-"""
-
+from dotenv import load_dotenv
+load_dotenv()
+from rich import print
 from agents.data_collector import DataCollectorAgent
 from agents.insight_analyzer import InsightAnalyzerAgent
 from agents.report_generator import ReportGeneratorAgent
 
-def run_pipeline():
-    print("\n🚀 Starting InsightAgents Pipeline...\n")
+import os
+print(f"[bold cyan]Using Project:[/bold cyan] {os.getenv('GOOGLE_CLOUD_PROJECT')}")
 
-    # Step 1: Initialize agents
-    collector = DataCollectorAgent()
+def main():
+    data_collector = DataCollectorAgent()
+    print("[bold cyan][INFO][/bold cyan] DataCollectorAgent initialized.")
+    data = data_collector.collect()
+    print(f"[bold cyan][INFO][/bold cyan] Collected mock data: {data}")
+
     analyzer = InsightAnalyzerAgent()
+    print("[bold cyan][INFO][/bold cyan] InsightAnalyzerAgent initialized.")
+    insights = analyzer.analyze(data)  # ✅ Fixed variable name
+    print(f"[bold cyan][INFO][/bold cyan] Insights: {insights}")
+
     reporter = ReportGeneratorAgent()
-
-    # Step 2: Collect data
-    print("📥 Collecting data...")
-    data = collector.collect()
-
-    # Step 3: Analyze data
-    print("🔍 Analyzing data for insights...")
-    insights = analyzer.analyze(data)
-
-    # Step 4: Generate and log report
-    print("📝 Generating report...")
-    report = reporter.generate(insights)
-
-    # Final output
-    print("\n✅ Pipeline complete. Final Report:")
-    print(report)
+    print("[bold cyan][INFO][/bold cyan] ReportGeneratorAgent initialized.")
+    reporter.generate(insights)  # ✅ Correct method name (was .store())
+    print("[bold cyan][INFO][/bold cyan] Report generated successfully.")
 
 if __name__ == "__main__":
-    run_pipeline()
+    main()
