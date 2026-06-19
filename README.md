@@ -144,7 +144,7 @@ insightagents/
 
 ## 🎥 Demo Video
 
-[👉 Watch the 3-Minute Demo](https://youtube.com/your-demo-video)
+[👉 Watch the 3-Minute Demo](https://youtu.be/X12sP_V8ucw?si=m80puJoHx-SB3y06)
 
 ---
 
